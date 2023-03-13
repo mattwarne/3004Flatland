@@ -4,7 +4,10 @@ function changeColour(colour) {
     square.style.background = colour;
 }
 
-square.addEventListener('click', (event) => changeColour('aqua'))
+square.addEventListener('click', (event) => changeColour('blue'));
+
+square.addEventListener('mouseover', (event) => changeColour('pink'));
+square.addEventListener('mouseover', (event) => changeColour('black'));
 
 function createBuzzwordPhrase() {
     /* See https://en.wikipedia.org/wiki/List_of_buzzwords */
