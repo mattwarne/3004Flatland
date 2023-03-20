@@ -9,7 +9,7 @@ function clicked() {
     words.innerHTML = msg;
 }
 
-square.addEventListener('click', (event) => changeColour('blue'));
+square.addEventListener('click', (event) => clicked());
 
 square.addEventListener('mouseover', (event) => changeColour('pink'));
 square.addEventListener('mouseout', (event) => changeColour('black'));
